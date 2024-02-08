@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Delve into user behavior and demographic analytics with our in-depth Cluster Analysis for Advertising Insights project. Utilizing a rich advertising dataset, this project seeks to unravel the myriad factors that steer users towards engaging with online advertisements. By dissecting aspects such as site engagement time, age, income levels, internet usage, and temporal engagement patterns, we provide a multifaceted view of digital ad interactions.
+Delve into user behavior and demographic analytics with our in-depth Cluster Analysis for Advertising Insights project. Utilizing a rich advertising dataset, this project seeks to unravel the factors that steer users towards engaging with online advertisements. By dissecting aspects such as site engagement time, age, income levels, internet usage, and temporal engagement patterns, we provide a unique view of digital ad interactions.
 
 ## Key Findings
 
