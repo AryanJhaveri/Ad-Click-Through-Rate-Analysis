@@ -2,7 +2,23 @@
 
 ## Introduction
 
-In the fiercely competitive world of e-commerce, getting customers to click on your ads is like winning the first battle in a long campaign. It's the crucial first step in the conversion funnel, and without it, even the most impressive products go unseen. This project delves into ad click data to uncover insights and strategies for maximizing engagement, focusing on user behavior, demographics, and internet usage patterns.
+In the fiercely competitive world of e-commerce, getting customers to click on your ads is like winning the first battle in a long campaign. It's the crucial first step in the conversion funnel, and without it, even the most impressive products go unseen. 
+
+This project delves into ad click data to uncover insights and strategies for maximizing engagement, focusing on user behavior, demographics, and internet usage patterns. By creating segments of users through clustering, I analyzed each group in detail to understand their unique engagement behaviors and optimize advertising strategies accordingly.
+
+
+## Table of Contents
+
+- [Data Overview](#data-overview)
+- [Business Questions Addressed](#business-questions-addressed)
+- [Key Findings](#key-findings)
+  - [Impact of Daily Time Spent on Site and Area Income](#impact-of-daily-time-spent-on-site-and-area-income)
+  - [Cluster Analysis](#cluster-analysis)
+- [Implications and Recommendations](#implications-and-recommendations)
+  - [Summary](#summary)
+  - [Business Implications](#business-implications)
+  - [Strategic Recommendations](#strategic-recommendations)
+
 
 ## Data Overview
 
@@ -33,13 +49,16 @@ This project tackled several critical business questions to drive strategic adve
 
 Each of these questions was addressed through rigorous data analysis, providing actionable insights to improve advertising strategies and outcomes.
 
+
+
 ## Key Findings
 
 ### Impact of Daily Time Spent on Site and Area Income
 <table>
   <tr>
     <td>
-      <strong>Daily Time Spent on Site</strong>: Users who clicked on ads spent less time on the site on average compared to those who did not click. This suggests that ads are effectively capturing the attention of users with specific needs or interests early in their visit.
+      <strong>Daily Time Spent on Site</strong>: Users who clicked on ads spent less time on the site on average compared to those who did not click.<br>
+      This suggests that ads are effectively capturing the attention of users with specific needs or interests early in their visit.
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/80c184a3-462e-4b1c-9a7e-2774b8372ffb" alt="Density Plot of Daily Time Spent on Site" width="1700"/>
@@ -48,7 +67,8 @@ Each of these questions was addressed through rigorous data analysis, providing 
 
   <tr>
     <td>
-      <strong>Area Income</strong>: Users with lower area income were more likely to click on ads. This indicates that ads might be targeted towards users looking for economical options.
+      <strong>Area Income</strong>: Users with lower area income were more likely to click on ads. <br>
+      This indicates that ads might be targeted towards users looking for economical options.
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/c7c93ab1-0983-4d59-96ab-a24ae59d38b6" alt="Density Plot of Daily Time Spent on Site" width="1700"/>
@@ -75,12 +95,14 @@ Each of these questions was addressed through rigorous data analysis, providing 
   </tr>
 </table>
 
-For a more in-depth analysis of each cluster, including temporal analysis and additional insights, please refer to the complete analysis in the [Jupyter Notebook](cluster-analysis-for-advertising-insights.ipynb).
+For a more in-depth analysis of each cluster and additional insights like temporal analysis, age and gender analysis, please refer to the complete analysis in the [Jupyter Notebook](cluster-analysis-for-advertising-insights.ipynb).
+
+
 
 ## Implications and Recommendations
 
 ### Summary
-Our analysis revealed key insights into user behavior and demographics affecting ad click-through rates. Notably, users with less time spent on the site and lower area income showed higher engagement with ads.
+The analysis revealed key insights into user behavior and demographics affecting ad click-through rates. Notably, users with less time spent on the site and lower area income showed higher engagement with ads.
 
 ### Business Implications
 - **Targeted Advertising**: By focusing on demographics with higher engagement, businesses can optimize ad spend and improve conversion rates.
